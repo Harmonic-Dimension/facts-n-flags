@@ -190,16 +190,6 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
           and earn one back. Ten correct answers wins the game.
         </p>
       </div>
-      <div class="status-block" v-if="gameState !== 'start'">
-        <div class="status">
-          <span class="label">Lives</span>
-          <span class="value hearts">{{ livesDisplay }}</span>
-        </div>
-        <div class="status">
-          <span class="label">Correct</span>
-          <span class="value">{{ correctCount }} / {{ targetCorrect }}</span>
-        </div>
-      </div>
     </header>
 
     <main class="panel">
@@ -218,6 +208,10 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
           </div>
           <div class="header-actions">
             <div class="pill">Question {{ questionIndex + 1 }}</div>
+            <div class="pill progress-pill" v-if="gameState !== 'start'">
+              <span class="label inline">Correct</span>
+              <span class="value">{{ correctCount }} / {{ targetCorrect }}</span>
+            </div>
             <div class="pill lives-pill" v-if="gameState !== 'start'">
               <span class="label inline">Lives</span>
               <span class="value hearts">{{ livesDisplay }}</span>
@@ -229,6 +223,28 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
         </div>
 
         <div class="options-grid">
+          <div class="card">
+            <div class="card-head">
+              <p class="label">Facts</p>
+              <p class="muted small">Pick one</p>
+            </div>
+            <div class="fact-options">
+              <label
+                v-for="option in currentQuestion.factOptions"
+                :key="option.id"
+                class="option fact"
+              >
+                <input
+                  type="radio"
+                  name="fact"
+                  :value="option.id"
+                  v-model="factSelection"
+                />
+                <span class="option-label">{{ option.text }}</span>
+              </label>
+            </div>
+          </div>
+
           <div class="card">
             <div class="card-head">
               <p class="label">Flags</p>
@@ -253,28 +269,6 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
                     :alt="`Flag option ${String.fromCharCode(65 + idx)}`"
                   />
                 </div>
-              </label>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-head">
-              <p class="label">Facts</p>
-              <p class="muted small">Pick one</p>
-            </div>
-            <div class="fact-options">
-              <label
-                v-for="option in currentQuestion.factOptions"
-                :key="option.id"
-                class="option fact"
-              >
-                <input
-                  type="radio"
-                  name="fact"
-                  :value="option.id"
-                  v-model="factSelection"
-                />
-                <span class="option-label">{{ option.text }}</span>
               </label>
             </div>
           </div>

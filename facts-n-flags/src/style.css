@@ -72,18 +72,6 @@ p {
   color: #475569;
 }
 
-.status-block {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 8px;
-  background: white;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 12px 14px;
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
-  min-width: 160px;
-}
-
 .status {
   display: flex;
   justify-content: space-between;
@@ -151,6 +139,12 @@ p {
 }
 
 .lives-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.progress-pill {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -237,15 +231,21 @@ p {
 .flag {
   width: 100%;
   max-width: 220px;
+  aspect-ratio: 3 / 2;
+  background: #f8fafc;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
 }
 
 .flag img {
   width: 100%;
-  height: auto;
-  max-height: 120px;
-  object-fit: cover;
-  border-radius: 10px;
-  border: 1px solid #e2e8f0;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
   box-shadow: 0 4px 12px rgba(15, 23, 42, 0.1);
 }
 
