@@ -1,7 +1,7 @@
 // Country config: one correct flag URL per country and a set of true facts.
 const countries = [
   {
-    name: 'Israel',
+    name: 'Israël',
     code: 'il',
     flag: 'https://flagcdn.com/w320/il.png',
     facts: [
@@ -11,12 +11,12 @@ const countries = [
     ],
   },
   {
-    name: 'Italy',
+    name: 'Italië',
     code: 'it',
     flag: 'https://flagcdn.com/w320/it.png',
     facts: [
-      'Nergens vind je meer UNESCO-werelderfgoed dan in Italië.',
-      'Pizza Margherita gebruikt de kleuren van de Italiaanse vlag.',
+      'Nergens vind je meer UNESCO-werelderfgoed dan in dit land.',
+      'Pizza Margherita gebruikt de kleuren van de vlag van dit land.',
       'Venetië is gebouwd op meer dan 100 eilandjes en heeft geen auto’s.',
     ],
   },
@@ -27,7 +27,7 @@ const countries = [
     facts: [
       'Geen enkel ander Zuidoost-Aziatisch land is ooit gekoloniseerd.',
       'Tijdens Songkran houden mensen enorme watergevechten op straat.',
-      'Red Bull begon als een Thaise energiedrank: Krating Daeng.',
+      'Red Bull begon als een energiedrank uit dit land: Krating Daeng.',
     ],
   },
   {
@@ -35,9 +35,9 @@ const countries = [
     code: 'fi',
     flag: 'https://flagcdn.com/w320/fi.png',
     facts: [
-      'Er zijn meer sauna’s dan auto’s.',
+      'Er zijn hier meer sauna’s dan auto’s.',
       'In de zomer blijft in het noorden de zon na middernacht nog op.',
-      'Finnen drinken het meeste koffie per persoon ter wereld.',
+      'De mensen die hier wonen drinken het meeste koffie per persoon ter wereld.',
     ],
   },
   {
@@ -45,9 +45,9 @@ const countries = [
     code: 'ca',
     flag: 'https://flagcdn.com/w320/ca.png',
     facts: [
-      'Canada heeft de langste kustlijn ter wereld.',
-      'Ongeveer 70% van alle ahornsiroop komt uit Canada.',
-      'Churchill wordt de “ijsberenkapital” van de wereld genoemd.',
+      'Dit land heeft de langste kustlijn ter wereld.',
+      'Ongeveer 70% van alle ahornsiroop komt uit dit land.',
+      'In dit land ligt het stadje Churchill, de “ijsberenhoofdstad” van de wereld.',
     ],
   },
   {
@@ -55,39 +55,39 @@ const countries = [
     code: 'sr',
     flag: 'https://flagcdn.com/w320/sr.png',
     facts: [
-      'Meer dan 90% van Suriname is regenwoud.',
-      'Nergens anders in Zuid-Amerika is Nederlands de voertaal.',
-      'Paramaribo heeft een van de hoogste houten kathedralen van de Amerika’s.',
+      'Meer dan 90% van dit land is regenwoud.',
+      'Nergens anders op het continent waar dit land ligt is Nederlands de voertaal.',
+      'De hoofdstad van dit land heeft een van de hoogste houten kathedralen van de wereld.',
     ],
   },
   {
-    name: 'Belgium',
+    name: 'België',
     code: 'be',
     flag: 'https://flagcdn.com/w320/be.png',
     facts: [
-      'De praline werd hier uitgevonden begin 1900.',
+      'De praline bonbon werd hier uitgevonden begin 1900.',
       'De Smurfen en Kuifje komen hier vandaan.',
-      'Er bestaan honderden soorten frieten en sausjes.',
+      'Er bestaan hier honderden soorten frieten en sausjes.',
     ],
   },
   {
-    name: 'Armenia',
+    name: 'Armenië',
     code: 'am',
     flag: 'https://flagcdn.com/w320/am.png',
     facts: [
-      'Armenië was een van de eerste landen die christelijk werden, meer dan 1600 jaar geleden.',
-      'De oudste bekende wijnmakerij ter wereld (6000 jaar oud) werd in Armenië gevonden.',
-      'De mythische berg Ararat duikt in veel Armeense verhalen op.',
+      'Dit land was een van de eerste landen die christelijk werd, meer dan 1600 jaar geleden.',
+      'De oudste bekende wijnmakerij ter wereld (6000 jaar oud) werd hier gevonden.',
+      'De mythische berg Ararat ligt in dit land.',
     ],
   },
   {
-    name: 'Chile',
+    name: 'Chili',
     code: 'cl',
     flag: 'https://flagcdn.com/w320/cl.png',
     facts: [
-      'De Atacama-woestijn is zo droog dat NASA er Marsrovers test.',
-      'De reusachtige beelden op Paaseiland horen bij Chili.',
-      'Chili is meer dan 4000 km lang, langer dan de VS breed is.',
+      'De woestijn in dit land is zo droog dat NASA er Marsrovers test.',
+      'De reusachtige beelden op Paaseiland horen bij dit land.',
+      'Dit land is meer dan 4000 km lang, langer dan de VS breed is.',
     ],
   },
   {
@@ -95,9 +95,9 @@ const countries = [
     code: 'pa',
     flag: 'https://flagcdn.com/w320/pa.png',
     facts: [
-      'In Panama kun je dezelfde dag de zon zien opkomen bij de Stille Oceaan en ondergaan bij de Atlantische.',
-      'Het Panamakanaal laat schepen in minder dan 10 uur van oceaan wisselen.',
-      'Panama-Stad heeft een stuk regenwoud midden in de stad.',
+      'In dit land kun je dezelfde dag de zon zien opkomen bij de Stille Oceaan en ondergaan bij de Atlantische.',
+      'Een kanaal in dit land laat schepen in minder dan 10 uur van oceaan wisselen.',
+      'Er ligt een stuk regenwoud midden in de hoofdstad van dit land.',
     ],
   },
   {
@@ -105,9 +105,9 @@ const countries = [
     code: 'cn',
     flag: 'https://flagcdn.com/w320/cn.png',
     facts: [
-      'Papier, drukkunst, buskruit en het kompas zijn uit China afkomstig.',
-      'China heeft het grootste hogesnelheids-treinnetwerk ter wereld.',
-      'Reuzenpanda’s leven in het wild alleen in China.',
+      'Papier, drukkunst, buskruit en het kompas zijn uit dit land afkomstig.',
+      'Dit land heeft het grootste hogesnelheids-treinnetwerk ter wereld.',
+      'Reuzenpanda’s leven in het wild alleen in dit land.',
     ],
   },
   {
@@ -115,28 +115,28 @@ const countries = [
     code: 'co',
     flag: 'https://flagcdn.com/w320/co.png',
     facts: [
-      'Er leven meer vogelsoorten dan in elk ander land.',
-      'De rivier Caño Cristales heet de “rivier van vijf kleuren.”',
-      'De meeste smaragden ter wereld komen uit Colombia.',
+      'Er leven hier meer vogelsoorten dan in elk ander land.',
+      'Door dit land stroomt de “rivier van vijf kleuren.”',
+      'De meeste smaragden ter wereld komen uit dit land.',
     ],
   },
   {
-    name: 'Bahrain',
+    name: 'Bahrein',
     code: 'bh',
     flag: 'https://flagcdn.com/w320/bh.png',
     facts: [
-      'De “Tree of Life” groeit alleen in de woestijn zonder zichtbaar water.',
-      'Hier werd de eerste Formule 1-nachtrace in het Midden-Oosten gereden.',
-      'Vroeger was parel duiken een grote handel voordat er olie was.',
+      'De “Tree of Life” groeit hier midden in de woestijn, op plekken waar geen water te zien is.',
+      'Hier werd de eerste Formule 1-nachtrace gereden.',
+      'Vroeger waren parels hier een grote handel, voordat er olie gevonden werd.',
     ],
   },
   {
-    name: 'Turkey',
+    name: 'Turkije',
     code: 'tr',
     flag: 'https://flagcdn.com/w320/tr.png',
     facts: [
-      'Istanbul ligt tegelijk in Europa en Azië.',
-      'Tulpen werden al gekweekt lang voor ze beroemd werden in Nederland.',
+      'De hoofdstad ligt tegelijk in Europa en Azië.',
+      'Tulpen werden hier als eerste gekweekt, lang voor ze beroemd werden in Nederland.',
       'In Cappadocië zweven luchtballonnen over sprookjesachtige rotsen.',
     ],
   },
@@ -146,18 +146,18 @@ const countries = [
     flag: 'https://flagcdn.com/w320/np.png',
     facts: [
       'De nationale vlag is de enige ter wereld die niet rechthoekig is.',
-      'De Mount Everest, hoogste punt op aarde, staat op de grens met Nepal.',
-      'Acht van de veertien hoogste bergen staan in Nepal.',
+      'De Mount Everest, hoogste punt op aarde, staat op de grens van dit land.',
+      'Acht van de veertien hoogste bergen ter wereld staan in dit land.',
     ],
   },
   {
-    name: 'Norway',
+    name: 'Noorwegen',
     code: 'no',
     flag: 'https://flagcdn.com/w320/no.png',
     facts: [
-      'In de zomer blijft de zon in het noorden de hele nacht boven de horizon.',
-      'De fjorden zijn diepe zeearmen die door gletsjers zijn uitgesleten.',
-      'De Nobelprijs voor de Vrede wordt elk jaar in Oslo uitgereikt.',
+      'In de zomer blijft de zon in het noorden van dit land de hele nacht boven de horizon.',
+      'De fjorden hier zijn diepe zeearmen die door gletsjers zijn uitgesleten.',
+      'De Nobelprijs voor de Vrede wordt elk jaar in de hoofdstad van dit land uitgereikt.',
     ],
   },
   {
@@ -165,9 +165,9 @@ const countries = [
     code: 'bd',
     flag: 'https://flagcdn.com/w320/bd.png',
     facts: [
-      'De Sundarbans is het grootste mangrovebos ter wereld met Bengaalse tijgers.',
-      'Fietsriksja’s zijn versierd met felgekleurde handgeschilderde kunst.',
-      'Veel mensen spreken over zes seizoenen in plaats van vier.',
+      'De Sundarbans is het grootste mangrovebos ter wereld. Er wonen met Bengaalse tijgers.',
+      'Fietsriksja’s hier zijn versierd met felgekleurde handgeschilderde kunst.',
+      'Veel mensen spreken hier over zes seizoenen in plaats van vier.',
     ],
   },
   {
@@ -181,17 +181,17 @@ const countries = [
     ],
   },
   {
-    name: 'Morocco',
+    name: 'Marokko',
     code: 'ma',
     flag: 'https://flagcdn.com/w320/ma.png',
     facts: [
       'De oude stad Chefchaouen is bijna helemaal blauw geverfd.',
-      'Geiten klimmen echt in arganbomen om de vruchten te eten.',
+      'Geiten klimmen hier echt in arganbomen om de vruchten te eten.',
       'Je kunt op een kameel de grote Sahara-duinen bij Merzouga in.',
     ],
   },
   {
-    name: 'Bahamas',
+    name: 'Bahama’s',
     code: 'bs',
     flag: 'https://flagcdn.com/w320/bs.png',
     facts: [
@@ -201,12 +201,12 @@ const countries = [
     ],
   },
   {
-    name: 'United States',
+    name: 'Verenigde Staten',
     code: 'us',
     flag: 'https://flagcdn.com/w320/us.png',
     facts: [
       'Alaska heeft meer kustlijn dan alle andere Amerikaanse staten samen.',
-      'Yellowstone was het allereerste nationale park ter wereld.',
+      'Dit land had het allereerste nationale park ter wereld.',
       'Route 66 is een beroemde roadtrip van bijna 4000 kilometer.',
     ],
   },
@@ -216,18 +216,18 @@ const countries = [
     flag: 'https://flagcdn.com/w320/bw.png',
     facts: [
       'De Okavango-delta is een enorme binnenlandse oase vol dieren.',
-      'Botswana heeft een van de grootste olifantenpopulaties van Afrika.',
-      'De munt heet pula, wat “regen” betekent.',
+      'Dit land heeft een van de grootste olifantenpopulaties van de wereld.',
+      'De munt van dit land heet pula, wat “regen” betekent.',
     ],
   },
   {
-    name: 'Greece',
+    name: 'Griekenland',
     code: 'gr',
     flag: 'https://flagcdn.com/w320/gr.png',
     facts: [
-      'De eerste Olympische Spelen werden in het oude Griekenland gehouden.',
-      'De marathon komt van een legendarische loop van Marathon naar Athene.',
-      'Griekenland heeft duizenden eilanden met witte en blauwe huizen.',
+      'De eerste Olympische Spelen werden in dit land gehouden.',
+      'De marathon komt van een legendarische loop van Marathon naar de hoofdstad van dit land.',
+      'Dit land heeft duizenden eilanden met witte en blauwe huizen.',
     ],
   },
   {
@@ -235,89 +235,89 @@ const countries = [
     code: 'mu',
     flag: 'https://flagcdn.com/w320/mu.png',
     facts: [
-      'De uitgestorven dodo leefde alleen op dit eiland.',
-      'De Seven Coloured Earths zijn zandduinen met regenboogkleuren.',
-      'Mauritius heeft geen leger, alleen politie en speciale eenheden.',
+      'De uitgestorven dodo leefde alleen hier.',
+      'Dit land heeft zandduinen met regenboogkleuren.',
+      'Dit land heeft geen leger, alleen politie en speciale eenheden.',
     ],
   },
   {
-    name: 'Madagascar',
+    name: 'Madagaskar',
     code: 'mg',
     flag: 'https://flagcdn.com/w320/mg.png',
     facts: [
-      'Lemuren leven in het wild alleen op dit eiland.',
-      'De Avenue of the Baobabs heeft reusachtige “op-de-kop”-bomen langs de weg.',
-      'Ongeveer 90% van de dieren vind je nergens anders op aarde.',
+      'Lemuren leven in het wild alleen in dit land.',
+      'In dit land groeien Baobabs, reusachtige “op-de-kop”-bomen overal langs de weg.',
+      'Ongeveer 90% van de dieren die hier leven vind je nergens anders op aarde.',
     ],
   },
   {
-    name: 'United Arab Emirates',
+    name: 'Verenigde Arabische Emiraten',
     code: 'ae',
     flag: 'https://flagcdn.com/w320/ae.png',
     facts: [
-      'Dubai’s Burj Khalifa is the tallest building on Earth.',
-      'You can ski indoors inside a shopping mall in Dubai.',
-      'Police cars have included Lamborghinis and other supercars.',
+      'In dit land staat het hoogste gebouw op aarde.',
+      'Je kan in dit land skieen in een winkelcentrum, midden in een woestijn.',
+      'De politie rijdt in dit land in Lamborghinis.',
     ],
   },
   {
-    name: 'Netherlands',
+    name: 'Nederland',
     code: 'nl',
     flag: 'https://flagcdn.com/w320/nl.png',
     facts: [
-      'Er zijn meer fietsen dan mensen.',
-      'Ongeveer een kwart van het land ligt op of onder zeeniveau.',
-      'In de lente kleuren de bollenvelden fel met tulpen.',
+      'Er zijn in dit land meer fietsen dan mensen.',
+      'Ongeveer een kwart van dit land ligt op of onder zeeniveau.',
+      'In de lente kleuren de bollenvelden hier fel met tulpen.',
     ],
   },
   {
-    name: 'Russia',
+    name: 'Rusland',
     code: 'ru',
     flag: 'https://flagcdn.com/w320/ru.png',
     facts: [
-      'De Trans-Siberische spoorlijn is de langste treinroute ter wereld.',
-      'Het Baikalmeer bevat meer zoet water dan elk ander meer.',
-      'In het Hermitage-museum wonen katten als officiële muizenvangers.',
+      'In dit land ligt de langste treinroute ter wereld.',
+      'Een meer in dit land bevat meer zoet water dan elk ander meer ter wereld.',
+      'In het Hermitage-museum in dit land wonen katten als officiële muizenvangers.',
     ],
   },
   {
-    name: 'Germany',
+    name: 'Duitsland',
     code: 'de',
     flag: 'https://flagcdn.com/w320/de.png',
     facts: [
-      'Op delen van de Autobahn geldt geen snelheidslimiet.',
+      'Op delen van de snelweg geldt in dit land geen snelheidslimiet.',
       'Oktoberfest begon als een koninklijk trouwfeest in 1810.',
-      'Gummibeertjes werden in de jaren 20 in Duitsland bedacht.',
+      'Gummibeertjes werden in de jaren 20 in dit land bedacht.',
     ],
   },
   {
-    name: 'Switzerland',
+    name: 'Zwitserland',
     code: 'ch',
     flag: 'https://flagcdn.com/w320/ch.png',
     facts: [
       'Het Rode Kruis werd hier opgericht in 1863.',
-      'Er zijn meer dan 7000 meren ondanks de kleine grootte.',
-      'Zwitserse treinen staan bekend om hun stiptheid.',
+      'Er zijn meer dan 7000 meren in dit land, ondanks de kleine grootte.',
+      'Dit land staat bekend om horloges, gatenkaas, en chocola.',
     ],
   },
   {
-    name: 'Czech Republic',
+    name: 'Tsjechië',
     code: 'cz',
     flag: 'https://flagcdn.com/w320/cz.png',
     facts: [
-      'De astronomische klok van Praag uit 1410 tikt nog steeds.',
+      'De astronomische klok in de hoofstdat van dit land is gemaakt in 1410 en tikt nog steeds.',
       'Hier wordt per persoon meer bier gedronken dan waar ook.',
-      'In Praag staan kubistische gebouwen met scherpe hoeken.',
+      'In de hoofstad van dit land staan veel kubistische gebouwen met scherpe hoeken.',
     ],
   },
   {
-    name: 'Indonesia',
+    name: 'Indonesië',
     code: 'id',
     flag: 'https://flagcdn.com/w320/id.png',
     facts: [
-      'De republiek strekt zich uit over meer dan 17.000 eilanden.',
+      'Deze republiek strekt zich uit over meer dan 17.000 eilanden.',
       'Komodovaranen, de grootste hagedissen, leven op sommige eilanden.',
-      'Borobudur is de grootste boeddhistische tempel ter wereld.',
+      'In dit land staat de grootste boeddhistische tempel ter wereld.',
     ],
   },
   {
@@ -326,8 +326,8 @@ const countries = [
     flag: 'https://flagcdn.com/w320/ng.png',
     facts: [
       'Nollywood maakt elk jaar duizenden films.',
-      'Igbo-Ora heet de “tweelinghoofdstad” door de vele tweelingen.',
-      'Nigeriaanse Afrobeats-artiesten scoren wereldwijd hits.',
+      'In dit land ligt Igbo-Ora, de “tweelinghoofdstad” van de wereld, zo genoemd door de vele tweelingen die hier wonen.',
+      'De Afrobeats-artiesten uit dit land scoren wereldwijd hits.',
     ],
   },
   {
@@ -335,18 +335,18 @@ const countries = [
     code: 'jp',
     flag: 'https://flagcdn.com/w320/jp.png',
     facts: [
-      'Er is ongeveer één automaat per 30 mensen.',
-      'Shinkansen-treinen zijn zo op tijd dat vertragingen in seconden tellen.',
+      'In dit land staat ongeveer één automaat per 30 mensen.',
+      'De treinen on dit land zijn zo netjes op tijd dat ze vertragingen hier in seconden tellen.',
       'KitKats bestaan hier in honderden smaken, van matcha tot wasabi.',
     ],
   },
   {
-    name: 'France',
+    name: 'Frankrijk',
     code: 'fr',
     flag: 'https://flagcdn.com/w320/fr.png',
     facts: [
-      'Het is het meest bezochte land ter wereld.',
-      'De Eiffeltoren was bedoeld als tijdelijk bouwwerk in 1889.',
+      'Dit is het meest bezochte land ter wereld.',
+      'De beroemde hoge toren in de hoofdstad was bedoeld als tijdelijk bouwwerk in 1889.',
       'De eerste heteluchtballon met mensen steeg hier op in 1783.',
     ],
   },
@@ -356,8 +356,8 @@ const countries = [
     flag: 'https://flagcdn.com/w320/ml.png',
     facts: [
       'Timbuktu was ooit een legendarische stad van goud en boeken.',
-      'De Grote Moskee van Djenné is het grootste lemen gebouw ter wereld.',
-      'Duizenden oude handgeschreven boeken liggen opgeslagen in woestijnbibliotheken.',
+      'In dit land staat de Grote Moskee van Djenné, het grootste lemen gebouw ter wereld.',
+      'Duizenden oude handgeschreven boeken liggen in dit land opgeslagen in woestijnbibliotheken.',
     ],
   },
 ]
