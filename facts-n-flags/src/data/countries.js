@@ -5,9 +5,9 @@ const countries = [
     code: 'il',
     flag: 'https://flagcdn.com/w320/il.png',
     facts: [
-      'Jerusalem is designated as its capital by the state.',
-      'The flag features a blue Star of David between two blue stripes.',
-      'The Dead Sea, shared with neighbors, is the lowest land elevation on Earth.',
+      'Je blijft drijven in het superzoute water van de Dode Zee.',
+      'Hebreeuws werd nieuw leven ingeblazen en weer een dagelijkse taal.',
+      'Tel Aviv zit vol startups en wordt “Startup City” genoemd.',
     ],
   },
   {
@@ -15,9 +15,9 @@ const countries = [
     code: 'it',
     flag: 'https://flagcdn.com/w320/it.png',
     facts: [
-      'Rome is the capital city.',
-      'It has two independent enclaves inside its borders: Vatican City and San Marino.',
-      'The Alps form much of its northern border.',
+      'Nergens vind je meer UNESCO-werelderfgoed dan in Italië.',
+      'Pizza Margherita gebruikt de kleuren van de Italiaanse vlag.',
+      'Venetië is gebouwd op meer dan 100 eilandjes en heeft geen auto’s.',
     ],
   },
   {
@@ -25,9 +25,9 @@ const countries = [
     code: 'th',
     flag: 'https://flagcdn.com/w320/th.png',
     facts: [
-      'Bangkok is the capital city.',
-      'The country was historically known as Siam.',
-      'The national flag features five horizontal stripes in red, white, and blue.',
+      'Geen enkel ander Zuidoost-Aziatisch land is ooit gekoloniseerd.',
+      'Tijdens Songkran houden mensen enorme watergevechten op straat.',
+      'Red Bull begon als een Thaise energiedrank: Krating Daeng.',
     ],
   },
   {
@@ -35,9 +35,9 @@ const countries = [
     code: 'fi',
     flag: 'https://flagcdn.com/w320/fi.png',
     facts: [
-      'Helsinki is the capital city.',
-      'It has thousands of lakes, earning the nickname “Land of a Thousand Lakes.”',
-      'The flag features a blue Nordic cross on a white field.',
+      'Er zijn meer sauna’s dan auto’s.',
+      'In de zomer blijft in het noorden de zon na middernacht nog op.',
+      'Finnen drinken het meeste koffie per persoon ter wereld.',
     ],
   },
   {
@@ -45,9 +45,9 @@ const countries = [
     code: 'ca',
     flag: 'https://flagcdn.com/w320/ca.png',
     facts: [
-      'The national flag features a red maple leaf.',
-      'The capital city is Ottawa.',
-      'It borders the Atlantic, Pacific, and Arctic Oceans.',
+      'Canada heeft de langste kustlijn ter wereld.',
+      'Ongeveer 70% van alle ahornsiroop komt uit Canada.',
+      'Churchill wordt de “ijsberenkapital” van de wereld genoemd.',
     ],
   },
   {
@@ -55,9 +55,9 @@ const countries = [
     code: 'sr',
     flag: 'https://flagcdn.com/w320/sr.png',
     facts: [
-      'Paramaribo is the capital city.',
-      'It is the smallest country in South America by area.',
-      'Dutch is the official language.',
+      'Meer dan 90% van Suriname is regenwoud.',
+      'Nergens anders in Zuid-Amerika is Nederlands de voertaal.',
+      'Paramaribo heeft een van de hoogste houten kathedralen van de Amerika’s.',
     ],
   },
   {
@@ -65,9 +65,9 @@ const countries = [
     code: 'be',
     flag: 'https://flagcdn.com/w320/be.png',
     facts: [
-      'Brussels is both the capital city and host to EU institutions.',
-      'Dutch, French, and German are official languages.',
-      'The flag uses vertical black, yellow, and red stripes.',
+      'De praline werd hier uitgevonden begin 1900.',
+      'De Smurfen en Kuifje komen hier vandaan.',
+      'Er bestaan honderden soorten frieten en sausjes.',
     ],
   },
   {
@@ -75,9 +75,9 @@ const countries = [
     code: 'am',
     flag: 'https://flagcdn.com/w320/am.png',
     facts: [
-      'Yerevan is the capital city.',
-      'It is home to Mount Ararat in its national symbolism.',
-      'The flag features horizontal red, blue, and orange stripes.',
+      'Armenië was een van de eerste landen die christelijk werden, meer dan 1600 jaar geleden.',
+      'De oudste bekende wijnmakerij ter wereld (6000 jaar oud) werd in Armenië gevonden.',
+      'De mythische berg Ararat duikt in veel Armeense verhalen op.',
     ],
   },
   {
@@ -85,9 +85,9 @@ const countries = [
     code: 'cl',
     flag: 'https://flagcdn.com/w320/cl.png',
     facts: [
-      'Santiago is the capital city.',
-      'The Atacama Desert in the north is one of the driest places on Earth.',
-      'The flag has a white star on a blue square with red and white bands.',
+      'De Atacama-woestijn is zo droog dat NASA er Marsrovers test.',
+      'De reusachtige beelden op Paaseiland horen bij Chili.',
+      'Chili is meer dan 4000 km lang, langer dan de VS breed is.',
     ],
   },
   {
@@ -95,9 +95,9 @@ const countries = [
     code: 'pa',
     flag: 'https://flagcdn.com/w320/pa.png',
     facts: [
-      'Panama City is the capital.',
-      'The Panama Canal connects the Atlantic and Pacific Oceans.',
-      'The flag has four quarters with two stars, one blue and one red.',
+      'In Panama kun je dezelfde dag de zon zien opkomen bij de Stille Oceaan en ondergaan bij de Atlantische.',
+      'Het Panamakanaal laat schepen in minder dan 10 uur van oceaan wisselen.',
+      'Panama-Stad heeft een stuk regenwoud midden in de stad.',
     ],
   },
   {
@@ -105,9 +105,9 @@ const countries = [
     code: 'cn',
     flag: 'https://flagcdn.com/w320/cn.png',
     facts: [
-      'Beijing is the capital city.',
-      'The Great Wall stretches across northern China.',
-      'The flag features one large star and four small stars on a red field.',
+      'Papier, drukkunst, buskruit en het kompas zijn uit China afkomstig.',
+      'China heeft het grootste hogesnelheids-treinnetwerk ter wereld.',
+      'Reuzenpanda’s leven in het wild alleen in China.',
     ],
   },
   {
@@ -115,9 +115,9 @@ const countries = [
     code: 'co',
     flag: 'https://flagcdn.com/w320/co.png',
     facts: [
-      'Bogotá is the capital city.',
-      'It has coasts on both the Pacific Ocean and Caribbean Sea.',
-      'The flag uses horizontal yellow, blue, and red stripes.',
+      'Er leven meer vogelsoorten dan in elk ander land.',
+      'De rivier Caño Cristales heet de “rivier van vijf kleuren.”',
+      'De meeste smaragden ter wereld komen uit Colombia.',
     ],
   },
   {
@@ -125,9 +125,9 @@ const countries = [
     code: 'bh',
     flag: 'https://flagcdn.com/w320/bh.png',
     facts: [
-      'Manama is the capital city.',
-      'The flag has a serrated white band next to a red field.',
-      'It is an island nation in the Persian Gulf.',
+      'De “Tree of Life” groeit alleen in de woestijn zonder zichtbaar water.',
+      'Hier werd de eerste Formule 1-nachtrace in het Midden-Oosten gereden.',
+      'Vroeger was parel duiken een grote handel voordat er olie was.',
     ],
   },
   {
@@ -135,9 +135,9 @@ const countries = [
     code: 'tr',
     flag: 'https://flagcdn.com/w320/tr.png',
     facts: [
-      'Ankara is the capital city.',
-      'Istanbul spans both Europe and Asia.',
-      'The flag features a white star and crescent on a red background.',
+      'Istanbul ligt tegelijk in Europa en Azië.',
+      'Tulpen werden al gekweekt lang voor ze beroemd werden in Nederland.',
+      'In Cappadocië zweven luchtballonnen over sprookjesachtige rotsen.',
     ],
   },
   {
@@ -145,9 +145,9 @@ const countries = [
     code: 'np',
     flag: 'https://flagcdn.com/w320/np.png',
     facts: [
-      'Kathmandu is the capital city.',
-      'Mount Everest lies on its border with China.',
-      'The national flag has a unique non-rectangular double-pennon shape.',
+      'De nationale vlag is de enige ter wereld die niet rechthoekig is.',
+      'De Mount Everest, hoogste punt op aarde, staat op de grens met Nepal.',
+      'Acht van de veertien hoogste bergen staan in Nepal.',
     ],
   },
   {
@@ -155,9 +155,9 @@ const countries = [
     code: 'no',
     flag: 'https://flagcdn.com/w320/no.png',
     facts: [
-      'Oslo is the capital city.',
-      'It is famous for deep fjords carved by glaciers.',
-      'The flag features a blue cross outlined in white on a red field.',
+      'In de zomer blijft de zon in het noorden de hele nacht boven de horizon.',
+      'De fjorden zijn diepe zeearmen die door gletsjers zijn uitgesleten.',
+      'De Nobelprijs voor de Vrede wordt elk jaar in Oslo uitgereikt.',
     ],
   },
   {
@@ -165,9 +165,9 @@ const countries = [
     code: 'bd',
     flag: 'https://flagcdn.com/w320/bd.png',
     facts: [
-      'Dhaka is the capital city.',
-      'The flag shows a red circle on a green field.',
-      'The Sundarbans mangrove forest is shared with India.',
+      'De Sundarbans is het grootste mangrovebos ter wereld met Bengaalse tijgers.',
+      'Fietsriksja’s zijn versierd met felgekleurde handgeschilderde kunst.',
+      'Veel mensen spreken over zes seizoenen in plaats van vier.',
     ],
   },
   {
@@ -175,9 +175,9 @@ const countries = [
     code: 'bj',
     flag: 'https://flagcdn.com/w320/bj.png',
     facts: [
-      'Porto-Novo is the official capital; Cotonou hosts government offices.',
-      'The flag uses green, yellow, and red Pan-African colors.',
-      'It borders Nigeria to the east and Togo to the west.',
+      'Het wordt de bakermat van Voodoo genoemd.',
+      'Ganvie is een paaldorp op het water en heet de “Venetië van Afrika.”',
+      'De vrouwelijke strijders van Dahomey inspireerden de Dora Milaje uit Black Panther.',
     ],
   },
   {
@@ -185,9 +185,9 @@ const countries = [
     code: 'ma',
     flag: 'https://flagcdn.com/w320/ma.png',
     facts: [
-      'Rabat is the capital city.',
-      'The flag features a green five-pointed star on red.',
-      'The Atlas Mountains run through the country.',
+      'De oude stad Chefchaouen is bijna helemaal blauw geverfd.',
+      'Geiten klimmen echt in arganbomen om de vruchten te eten.',
+      'Je kunt op een kameel de grote Sahara-duinen bij Merzouga in.',
     ],
   },
   {
@@ -195,9 +195,9 @@ const countries = [
     code: 'bs',
     flag: 'https://flagcdn.com/w320/bs.png',
     facts: [
-      'Nassau is the capital city.',
-      'The flag includes a black triangle and aquamarine and gold bands.',
-      'It is an Atlantic archipelago of hundreds of islands and cays.',
+      'Zwemvarkens op Big Major Cay zijn een beroemde attractie.',
+      'Dean’s Blue Hole is meer dan 200 meter diep en bijna recht naar beneden.',
+      'Piraten zoals Blackbeard verstopten zich vroeger tussen deze eilanden.',
     ],
   },
   {
@@ -205,9 +205,9 @@ const countries = [
     code: 'us',
     flag: 'https://flagcdn.com/w320/us.png',
     facts: [
-      'Washington, D.C., is the capital city.',
-      'The flag has 50 stars representing the states.',
-      'It spans from the Atlantic to the Pacific Ocean.',
+      'Alaska heeft meer kustlijn dan alle andere Amerikaanse staten samen.',
+      'Yellowstone was het allereerste nationale park ter wereld.',
+      'Route 66 is een beroemde roadtrip van bijna 4000 kilometer.',
     ],
   },
   {
@@ -215,9 +215,9 @@ const countries = [
     code: 'bw',
     flag: 'https://flagcdn.com/w320/bw.png',
     facts: [
-      'Gaborone is the capital city.',
-      'The flag features light blue with a black and white horizontal stripe.',
-      'The Okavango Delta is a major inland delta in the north.',
+      'De Okavango-delta is een enorme binnenlandse oase vol dieren.',
+      'Botswana heeft een van de grootste olifantenpopulaties van Afrika.',
+      'De munt heet pula, wat “regen” betekent.',
     ],
   },
   {
@@ -225,9 +225,9 @@ const countries = [
     code: 'gr',
     flag: 'https://flagcdn.com/w320/gr.png',
     facts: [
-      'Athens is the capital city.',
-      'The flag features blue and white stripes with a white cross on blue.',
-      'It has thousands of islands in the Aegean and Ionian Seas.',
+      'De eerste Olympische Spelen werden in het oude Griekenland gehouden.',
+      'De marathon komt van een legendarische loop van Marathon naar Athene.',
+      'Griekenland heeft duizenden eilanden met witte en blauwe huizen.',
     ],
   },
   {
@@ -235,9 +235,9 @@ const countries = [
     code: 'mu',
     flag: 'https://flagcdn.com/w320/mu.png',
     facts: [
-      'Port Louis is the capital city.',
-      'The flag has four horizontal stripes: red, blue, yellow, and green.',
-      'It is an island nation in the Indian Ocean east of Madagascar.',
+      'De uitgestorven dodo leefde alleen op dit eiland.',
+      'De Seven Coloured Earths zijn zandduinen met regenboogkleuren.',
+      'Mauritius heeft geen leger, alleen politie en speciale eenheden.',
     ],
   },
   {
@@ -245,9 +245,9 @@ const countries = [
     code: 'mg',
     flag: 'https://flagcdn.com/w320/mg.png',
     facts: [
-      'Antananarivo is the capital city.',
-      'It is the fourth-largest island in the world.',
-      'The flag combines white, red, and green blocks.',
+      'Lemuren leven in het wild alleen op dit eiland.',
+      'De Avenue of the Baobabs heeft reusachtige “op-de-kop”-bomen langs de weg.',
+      'Ongeveer 90% van de dieren vind je nergens anders op aarde.',
     ],
   },
   {
@@ -255,9 +255,9 @@ const countries = [
     code: 'ae',
     flag: 'https://flagcdn.com/w320/ae.png',
     facts: [
-      'Abu Dhabi is the capital city.',
-      'The federation consists of seven emirates.',
-      'The flag uses the Pan-Arab colors: red, green, white, and black.',
+      'Dubai’s Burj Khalifa is the tallest building on Earth.',
+      'You can ski indoors inside a shopping mall in Dubai.',
+      'Police cars have included Lamborghinis and other supercars.',
     ],
   },
   {
@@ -265,9 +265,9 @@ const countries = [
     code: 'nl',
     flag: 'https://flagcdn.com/w320/nl.png',
     facts: [
-      'Amsterdam is the capital; The Hague hosts government offices.',
-      'The flag uses horizontal red, white, and blue stripes.',
-      'Much of the country lies at or below sea level with extensive dikes.',
+      'Er zijn meer fietsen dan mensen.',
+      'Ongeveer een kwart van het land ligt op of onder zeeniveau.',
+      'In de lente kleuren de bollenvelden fel met tulpen.',
     ],
   },
   {
@@ -275,9 +275,9 @@ const countries = [
     code: 'ru',
     flag: 'https://flagcdn.com/w320/ru.png',
     facts: [
-      'Moscow is the capital city.',
-      'It spans Eastern Europe and Northern Asia.',
-      'The flag features white, blue, and red horizontal stripes.',
+      'De Trans-Siberische spoorlijn is de langste treinroute ter wereld.',
+      'Het Baikalmeer bevat meer zoet water dan elk ander meer.',
+      'In het Hermitage-museum wonen katten als officiële muizenvangers.',
     ],
   },
   {
@@ -285,9 +285,9 @@ const countries = [
     code: 'de',
     flag: 'https://flagcdn.com/w320/de.png',
     facts: [
-      'Berlin is the capital city.',
-      'The flag uses black, red, and gold horizontal stripes.',
-      'It is a member of the European Union and Schengen Area.',
+      'Op delen van de Autobahn geldt geen snelheidslimiet.',
+      'Oktoberfest begon als een koninklijk trouwfeest in 1810.',
+      'Gummibeertjes werden in de jaren 20 in Duitsland bedacht.',
     ],
   },
   {
@@ -295,9 +295,9 @@ const countries = [
     code: 'ch',
     flag: 'https://flagcdn.com/w320/ch.png',
     facts: [
-      'Bern is the federal city (de facto capital).',
-      'The flag is square with a white cross on red.',
-      'It is known for its Alps and many lakes.',
+      'Het Rode Kruis werd hier opgericht in 1863.',
+      'Er zijn meer dan 7000 meren ondanks de kleine grootte.',
+      'Zwitserse treinen staan bekend om hun stiptheid.',
     ],
   },
   {
@@ -305,9 +305,9 @@ const countries = [
     code: 'cz',
     flag: 'https://flagcdn.com/w320/cz.png',
     facts: [
-      'Prague is the capital city.',
-      'The flag has white and red horizontal bands with a blue triangle at the hoist.',
-      'It is a landlocked country in Central Europe.',
+      'De astronomische klok van Praag uit 1410 tikt nog steeds.',
+      'Hier wordt per persoon meer bier gedronken dan waar ook.',
+      'In Praag staan kubistische gebouwen met scherpe hoeken.',
     ],
   },
   {
@@ -315,9 +315,9 @@ const countries = [
     code: 'id',
     flag: 'https://flagcdn.com/w320/id.png',
     facts: [
-      'Jakarta is the capital city.',
-      'It is the world’s largest archipelagic country.',
-      'The flag has two horizontal bands: red over white.',
+      'De republiek strekt zich uit over meer dan 17.000 eilanden.',
+      'Komodovaranen, de grootste hagedissen, leven op sommige eilanden.',
+      'Borobudur is de grootste boeddhistische tempel ter wereld.',
     ],
   },
   {
@@ -325,9 +325,9 @@ const countries = [
     code: 'ng',
     flag: 'https://flagcdn.com/w320/ng.png',
     facts: [
-      'Abuja is the capital city.',
-      'Lagos is its largest city and major economic hub.',
-      'The flag features green-white-green vertical stripes.',
+      'Nollywood maakt elk jaar duizenden films.',
+      'Igbo-Ora heet de “tweelinghoofdstad” door de vele tweelingen.',
+      'Nigeriaanse Afrobeats-artiesten scoren wereldwijd hits.',
     ],
   },
   {
@@ -335,9 +335,9 @@ const countries = [
     code: 'jp',
     flag: 'https://flagcdn.com/w320/jp.png',
     facts: [
-      'Tokyo is the capital city.',
-      'Mount Fuji is the highest peak in the country.',
-      'The flag shows a red circle on a white background.',
+      'Er is ongeveer één automaat per 30 mensen.',
+      'Shinkansen-treinen zijn zo op tijd dat vertragingen in seconden tellen.',
+      'KitKats bestaan hier in honderden smaken, van matcha tot wasabi.',
     ],
   },
   {
@@ -345,9 +345,9 @@ const countries = [
     code: 'fr',
     flag: 'https://flagcdn.com/w320/fr.png',
     facts: [
-      'Paris is the capital city.',
-      'The flag uses vertical blue, white, and red stripes.',
-      'It has coastlines on the Atlantic, the Mediterranean, and the English Channel.',
+      'Het is het meest bezochte land ter wereld.',
+      'De Eiffeltoren was bedoeld als tijdelijk bouwwerk in 1889.',
+      'De eerste heteluchtballon met mensen steeg hier op in 1783.',
     ],
   },
   {
@@ -355,9 +355,9 @@ const countries = [
     code: 'ml',
     flag: 'https://flagcdn.com/w320/ml.png',
     facts: [
-      'Bamako is the capital city.',
-      'The flag uses vertical green, yellow, and red stripes.',
-      'The Niger River flows through the country.',
+      'Timbuktu was ooit een legendarische stad van goud en boeken.',
+      'De Grote Moskee van Djenné is het grootste lemen gebouw ter wereld.',
+      'Duizenden oude handgeschreven boeken liggen opgeslagen in woestijnbibliotheken.',
     ],
   },
 ]

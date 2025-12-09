@@ -184,10 +184,11 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
     <header class="hero">
       <div>
         <p class="eyebrow">Facts n Flags</p>
-        <h1>Guess the flag or the fact</h1>
+        <h1>Raad de vlag of het feit</h1>
         <p class="lede">
-          Pick the right flag or fact. Get it wrong—lose a life. Get both right
-          and earn one back. Ten correct answers wins the game.
+          Kies de juiste vlag of het juiste feit. Fout? Je verliest een leven.
+          Allebei goed? Je verdient er een terug. Tien goede antwoorden en je
+          wint.
         </p>
       </div>
     </header>
@@ -203,21 +204,21 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
       <section v-else-if="gameState === 'playing'" class="question">
         <div class="question-header">
           <div>
-            <p class="label">Country</p>
+            <p class="label">Land</p>
             <h2>{{ currentQuestion.country.name }}</h2>
           </div>
           <div class="header-actions">
-            <div class="pill">Question {{ questionIndex + 1 }}</div>
+            <div class="pill">Vraag {{ questionIndex + 1 }}</div>
             <div class="pill progress-pill" v-if="gameState !== 'start'">
-              <span class="label inline">Correct</span>
+              <span class="label inline">Goed</span>
               <span class="value">{{ correctCount }} / {{ targetCorrect }}</span>
             </div>
             <div class="pill lives-pill" v-if="gameState !== 'start'">
-              <span class="label inline">Lives</span>
+              <span class="label inline">Levens</span>
               <span class="value hearts">{{ livesDisplay }}</span>
             </div>
             <button class="btn primary small-btn" @click="handleSubmit">
-              Next
+              Volgende
             </button>
           </div>
         </div>
@@ -225,8 +226,8 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
         <div class="options-grid">
           <div class="card">
             <div class="card-head">
-              <p class="label">Facts</p>
-              <p class="muted small">Pick one</p>
+              <p class="label">Feiten</p>
+              <p class="muted small">Kies er één</p>
             </div>
             <div class="fact-options">
               <label
@@ -247,8 +248,8 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
 
           <div class="card">
             <div class="card-head">
-              <p class="label">Flags</p>
-              <p class="muted small">Pick one</p>
+              <p class="label">Vlaggen</p>
+              <p class="muted small">Kies er één</p>
             </div>
             <div class="flag-options">
               <label
@@ -276,11 +277,11 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
 
         <div class="actions">
           <p class="muted tiny">
-            Select a flag, a fact, or both. Both correct = gain 1 life. Any
-            wrong while picking both = lose 2 lives.
+            Kies een vlag, een feit, of allebei. Beide goed = +1 leven. Iets
+            fout bij twee keuzes = -2 levens.
           </p>
           <p v-if="feedback === 'choose'" class="error tiny">
-            Please select at least one option.
+            Kies minstens één antwoord.
           </p>
         </div>
 
@@ -291,11 +292,11 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
       <section v-else class="center">
         <h2>{{ gameState === 'win' ? 'You win!' : 'Game over' }}</h2>
         <p class="muted">
-          Correct answers: {{ correctCount }} / {{ targetCorrect }} · Lives
-          left: {{ livesRemaining }}
+          Goede antwoorden: {{ correctCount }} / {{ targetCorrect }} · Levens
+          over: {{ livesRemaining }}
         </p>
         <div class="actions center-actions">
-          <button class="btn primary" @click="restart">Play again</button>
+          <button class="btn primary" @click="restart">Speel opnieuw</button>
         </div>
       </section>
     </main>
