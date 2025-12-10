@@ -219,6 +219,18 @@ p {
   box-shadow: 0 6px 16px rgba(37, 99, 235, 0.12);
 }
 
+.option.is-correct {
+  border-color: #16a34a;
+  background: #dcfce7;
+  box-shadow: 0 8px 20px rgba(22, 163, 74, 0.25);
+}
+
+.option.is-wrong {
+  border-color: #ef4444;
+  background: #fef2f2;
+  box-shadow: 0 6px 16px rgba(239, 68, 68, 0.18);
+}
+
 .option input {
   margin: 0;
   accent-color: #2563eb;

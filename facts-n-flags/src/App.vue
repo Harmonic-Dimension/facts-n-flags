@@ -13,6 +13,8 @@ const feedback = ref(null) // correct | wrong
 
 const flagSelection = ref(null)
 const factSelection = ref(null)
+const flagResult = ref(null) // correct | wrong | null
+const factResult = ref(null) // correct | wrong | null
 
 const questionQueue = ref(buildQuestionQueue(targetCorrect))
 
@@ -95,6 +97,8 @@ function startGame() {
   questionQueue.value = buildQuestionQueue(targetCorrect)
   flagSelection.value = null
   factSelection.value = null
+  flagResult.value = null
+  factResult.value = null
   feedback.value = null
   gameState.value = 'playing'
 }
@@ -102,6 +106,8 @@ function startGame() {
 function nextQuestion() {
   flagSelection.value = null
   factSelection.value = null
+  flagResult.value = null
+  factResult.value = null
   feedback.value = null
   questionIndex.value =
     (questionIndex.value + 1) % questionQueue.value.length
@@ -114,6 +120,8 @@ function handleSubmit() {
 
   if (!pickedFlag && !pickedFact) {
     feedback.value = 'choose'
+    flagResult.value = null
+    factResult.value = null
     setTimeout(() => (feedback.value = null), 1200)
     return
   }
@@ -144,6 +152,9 @@ function handleSubmit() {
       lives.value -= 1
     }
   }
+
+  flagResult.value = pickedFlag ? (flagCorrect ? 'correct' : 'wrong') : null
+  factResult.value = pickedFact ? (factCorrect ? 'correct' : 'wrong') : null
 
   lives.value = Math.max(lives.value, 0)
 
@@ -234,6 +245,10 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
                 v-for="option in currentQuestion.factOptions"
                 :key="option.id"
                 class="option fact"
+                :class="{
+                  'is-correct': factSelection === option.id && factResult === 'correct',
+                  'is-wrong': factSelection === option.id && factResult === 'wrong',
+                }"
               >
                 <input
                   type="radio"
@@ -256,6 +271,10 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
                 v-for="(option, idx) in currentQuestion.flagOptions"
                 :key="option.id"
                 class="option"
+                :class="{
+                  'is-correct': flagSelection === option.id && flagResult === 'correct',
+                  'is-wrong': flagSelection === option.id && flagResult === 'wrong',
+                }"
               >
                 <input
                   type="radio"
@@ -285,8 +304,6 @@ const livesRemaining = computed(() => Math.max(lives.value, 0))
           </p>
         </div>
 
-        <div v-if="feedback === 'correct'" class="confetti"></div>
-        <div v-if="feedback === 'wrong'" class="snow"></div>
       </section>
 
       <section v-else class="center">
